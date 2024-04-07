@@ -1,0 +1,32 @@
+form {
+    margin-top: 10%;
+    text-align: center;
+}
+
+textarea {
+    border: 1px solid gainsboro;
+    width: 100%;
+    padding: 10px;
+    font-size: medium;
+    outline: none;
+}
+
+.addButton {
+    border: none;
+    background-color: rgb(77, 78, 77);
+    padding: 7px 13px;
+    font-size: medium;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    cursor: pointer;
+}
+
+.addButton:active {
+    outline: 2px solid rgb(4, 20, 20);
+}
